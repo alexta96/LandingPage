@@ -1,0 +1,8 @@
+landing_homepage:
+    path:     /
+    defaults: { _controller: LandingBundle:Default:index }
+
+producto:
+    path:     /producto/{numero}
+    defaults: { _controller: LandingBundle:Default:producto }
+
